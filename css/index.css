@@ -1,0 +1,106 @@
+header {
+    background-color: #56AEFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    font-weight: bolder;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+main{
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card, .publish-section{
+    border: 1px solid #56AEFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #56AEFF;
+    margin-top: 10px;
+    padding: 10px
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-header img{
+    max-height: 32px;
+    max-width: 32px;
+}
+
+.card .user-name{
+    color: #56AEFF;
+    font-weight: bolder;
+}
+
+.card-header .publish-date{
+    font-size: 0.6em;
+}
+
+.card-body>img{
+    max-width: 100%;
+}
+
+.interaction {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.likes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.likes img{
+    height: 32px;
+}
+
+.likes span{
+    font-size: 1.6em;
+    color: #56AEFF;
+}
+
+.comments-section, .publish-section{
+    display: flex;
+    border: 2px solid #56AEFF;
+    border-radius: 5px;
+    width: 100%
+}
+
+
+.comments-section input, .publish-section input{
+    flex-grow: 1;
+    height: 3em;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+}
+
+.publish-section input{
+    border: 2px solid #56AEFF;
+    border-radius: 5px 0 0 5px;
+}
+
+.comments-section button, .publish-section button{
+background-color: #56AEFF;
+color: white;
+outline: none;
+border: none;
+padding: 0 10px;
+cursor: pointer;
+}
+
+.publish-section button{
+    border-radius: 0 5px 5px 0;
+}
